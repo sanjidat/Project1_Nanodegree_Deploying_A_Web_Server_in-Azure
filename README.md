@@ -32,10 +32,20 @@ Step3: Creating the infrastructure using terraform and packer.
 The infrastructure is deployed using terraform and packer template in Azure. There are two files- main.tf in which all the resources are created and var.tf in which variables are created. The var.tf file can be customized according to the user information, for example- value of count, resource group name, location etc. Following are he commands for terraform template.
 
 •	Run the command "terraform init" to get started. 
+ 
+ 
 •	Run "terraform plan" to vie the resources that will be created. Also run the command "terraform plan -out <filename>" to save it in a file. 
+ 
+ 
 •	Run "terraform apply" to apply plan and deploy infrastructure.
+ 
+ 
 •	Run "terraform show" to see the deployed infrastructure.
+ 
+ 
 •	Run "terraform destroy" to take down the created infrastructure. 
+ 
+ 
 •	Run again "terraform show" to verify the previous command.
 
 
